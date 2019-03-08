@@ -13,7 +13,7 @@ export default class Matrix extends Component {
     }
   }
   
-  setColor = () => {
+  setColor = (newColor) => {
     this.setState({
       selectedColor: newColor
     })
