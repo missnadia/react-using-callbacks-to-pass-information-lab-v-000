@@ -20,7 +20,7 @@ export default class Matrix extends Component {
   }
   
   getColor = () => {
-    this.state.selectedColor
+    (this.state.selectedColor)
   }
 
   genRow = (vals) => (
